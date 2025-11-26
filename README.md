@@ -144,6 +144,3 @@ Tests cover:
 ## Author
 
 Paulo Okino
-
-* A full English version of all comments in code
-* A walkthrough video script
