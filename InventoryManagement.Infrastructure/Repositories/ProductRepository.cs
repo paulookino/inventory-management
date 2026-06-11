@@ -3,7 +3,7 @@ using InventoryManagement.Domain.Interfaces.Repositories;
 using InventoryManagement.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
-namespace InventoryManagement.Infrasctructure.Repositories
+namespace InventoryManagement.Infrastructure.Repositories
 {
 	public class ProductRepository : IProductRepository
 	{

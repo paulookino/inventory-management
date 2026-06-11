@@ -1,7 +1,7 @@
 ﻿using InventoryManagement.Domain.Interfaces.Repositories;
 using InventoryManagement.Infrastructure;
 
-namespace InventoryManagement.Infrasctructure.Repositories
+namespace InventoryManagement.Infrastructure.Repositories
 {
 	public class UnitOfWork : IUnitOfWork
 	{

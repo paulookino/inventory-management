@@ -2,7 +2,7 @@ using InventoryManagement.Application.Mocks;
 using InventoryManagement.Application.Services;
 using InventoryManagement.Application.Services.Interfaces;
 using InventoryManagement.Domain.Interfaces.Repositories;
-using InventoryManagement.Infrasctructure.Repositories;
+using InventoryManagement.Infrastructure.Repositories;
 using InventoryManagement.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
