@@ -72,7 +72,7 @@ public class ProductTests
 		return new Product(
 			Guid.NewGuid(),
 			Guid.NewGuid(),
-			"",
+			"Test Product Description",
 			10,
 			11,
 			DateTime.UtcNow
