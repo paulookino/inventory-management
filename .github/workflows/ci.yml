@@ -13,19 +13,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup .NET 8
+      - name: Setup .NET 10
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.0.x'
+          dotnet-version: '10.0.x'
 
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore inventory-management.slnx
 
       - name: Build
-        run: dotnet build --no-restore -c Release
+        run: dotnet build inventory-management.slnx --no-restore -c Release
 
       - name: Test
-        run: dotnet test --no-build -c Release --verbosity normal --collect:"XPlat Code Coverage"
+        run: dotnet test InventoryManagement.Tests/InventoryManagement.Tests.csproj --no-build -c Release --verbosity normal --collect:"XPlat Code Coverage"
 
       - name: Upload coverage
         uses: codecov/codecov-action@v4
